@@ -1,0 +1,25 @@
+LEICAS DREAM
+------------
+
+START
+-----
+
+In the dist/ directory there are two shell scripts to start the program. 
+They only differ in setting different command line arguments.
+
+
+# dist/run-epc.sh 
+-> Runs the program as an undecorated window at the size of 800x480px
+
+# dist/run-production.sh
+-> Sets fullscreen mode at a resolution of 1024x768px
+
+
+Look inside the shell scripts... the second command line argument is the oid of a 
+specific sputnik tag. This id will be highlighted in green color.
+
+The program expects (for now) a binary input stream at UDP port 2342.
+
+
+
+Please see LICENSE.
